@@ -50,7 +50,7 @@ Make sure you have a **C compiler** installed, such as **GCC** or **Clang**.
 3. Compile with:
 
 ```bash
-gcc main.c -o password-check
+gcc main.c -o main
 ```
 
 ### Execution
@@ -60,13 +60,13 @@ Run the program after compiling:
 **On Linux/macOS:**
 
 ```bash
-./password-check
+./main
 ```
 
 **On Windows:**
 
 ```bash
-.\password-check.exe
+.\main.exe
 ```
 
 ⚠️ If colors or characters appear broken on Windows, set UTF-8 mode first:
