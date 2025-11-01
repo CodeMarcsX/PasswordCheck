@@ -11,7 +11,6 @@
 // Constants
 #define PASSWORD_MIN_LENGTH 8
 #define SPECIAL_CHARS "!@#$%&*()-_=+[]{}\\|;:'\",.<>/?`~"
-#define SPECIAL_CHARS_LEN (sizeof(SPECIAL_CHARS) - 1)
 
 // Password strength levels
 #define LEVEL_WEAK 1
@@ -148,4 +147,5 @@ void printBanner(){
         "                      PASSWORD CHECK                      \n"
         "========================================================= \n" RESET 
     );
+
 }
